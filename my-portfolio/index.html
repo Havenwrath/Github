@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human-Centric Data Architect Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f8f8; /* 20% grey-white */
+            color: rgba(0, 0, 0, 0.8); /* 80% grey */
+        }
+        .header-bg {
+            background-color: #ffffff; /* White header background */
+        }
+        .text-vibrant-blue {
+            color: #007bff; /* Vibrant blue */
+        }
+        .bg-vibrant-blue {
+            background-color: #007bff; /* Vibrant blue */
+        }
+        .border-vibrant-blue {
+            border-color: #007bff; /* Vibrant blue */
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="header-bg shadow-sm fixed w-full z-50 py-4 md:py-6">
+        <div class="container mx-auto px-4 flex justify-between items-center flex-col md:flex-row">
+            <h1 class="text-3xl font-bold text-vibrant-blue mb-2 md:mb-0">
+                [Your Name]
+            </h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#hero" class="text-lg font-medium hover:text-vibrant-blue transition-colors duration-300">Home</a></li>
+                    <li><a href="#about" class="text-lg font-medium hover:text-vibrant-blue transition-colors duration-300">About Me</a></li>
+                    <li><a href="#skills" class="text-lg font-medium hover:text-vibrant-blue transition-colors duration-300">Skills</a></li>
+                    <li><a href="#contact" class="text-lg font-medium hover:text-vibrant-blue transition-colors duration-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-24"> <!-- Padding-top to account for fixed header -->
+
+        <!-- Hero Section -->
+        <section id="hero" class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 md:py-32 flex items-center justify-center text-center rounded-b-xl shadow-lg">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+                    Welcome! I'm a Human-Centric Data Architect.
+                </h2>
+                <p class="text-lg md:text-2xl font-light max-w-3xl mx-auto">
+                    Transforming data into insights that drive meaningful, human-centered change.
+                </p>
+                <div class="mt-8">
+                    <a href="#about" class="inline-block bg-white text-vibrant-blue hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300">
+                        Learn More About Me
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-16 md:py-24 bg-white rounded-xl shadow-md mx-4 md:mx-auto my-12 max-w-4xl">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl font-bold text-vibrant-blue mb-8">About Me</h2>
+                <p class="text-lg leading-relaxed mb-6">
+                    I am a Human-Centric Data Architect dedicated to uncovering the "why" and the real-world impact behind the numbers. My mission is to use data not just for insight, but for justice—to give a voice to the unseen, expose critical truths, and build solutions that serve people at a profound level.
+                </p>
+                <p class="text-lg leading-relaxed">
+                    My approach is defined by unwavering determination and a deep commitment to integrity. I have a natural inclination to question assumptions, ensuring that every conclusion is built on a foundation of clarity and evidence. This methodical process allows me to tackle the most complex problems and design robust solutions that are both accurate and resilient. As I complete my certification, I am eager to connect with organizations and leaders who are passionate about using data to drive meaningful, human-centered change. I am ready to bring my unique perspective and problem-solving grit to a team that believes in building a better, more equitable world.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-16 md:py-24 bg-gray-50 rounded-xl shadow-md mx-4 md:mx-auto my-12 max-w-4xl">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold text-vibrant-blue text-center mb-12">My Data Science Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-l-4 border-vibrant-blue">
+                        <h3 class="text-xl font-semibold mb-3">Data Analysis & Exploration</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Statistical Analysis</li>
+                            <li>Exploratory Data Analysis (EDA)</li>
+                            <li>Data Cleaning & Preprocessing</li>
+                            <li>Feature Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-l-4 border-vibrant-blue">
+                        <h3 class="text-xl font-semibold mb-3">Machine Learning & AI</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Supervised & Unsupervised Learning</li>
+                            <li>Deep Learning (Neural Networks)</li>
+                            <li>Natural Language Processing (NLP)</li>
+                            <li>Model Evaluation & Optimization</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-l-4 border-vibrant-blue">
+                        <h3 class="text-xl font-semibold mb-3">Programming & Tools</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Python (Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch)</li>
+                            <li>SQL & Database Management</li>
+                            <li>Data Visualization (Matplotlib, Seaborn, Tableau)</li>
+                            <li>Cloud Platforms (AWS, GCP)</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-l-4 border-vibrant-blue">
+                        <h3 class="text-xl font-semibold mb-3">Data Architecture & Engineering</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Data Pipeline Design</li>
+                            <li>ETL Processes</li>
+                            <li>Data Warehousing</li>
+                            <li>Big Data Technologies (e.g., Spark)</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-l-4 border-vibrant-blue">
+                        <h3 class="text-xl font-semibold mb-3">Ethical AI & Human Impact</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Fairness & Bias in AI</li>
+                            <li>Interpretability & Explainability (XAI)</li>
+                            <li>Privacy-Preserving Techniques</li>
+                            <li>Responsible AI Development</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-l-4 border-vibrant-blue">
+                        <h3 class="text-xl font-semibold mb-3">Problem Solving & Communication</h3>
+                        <ul class="list-disc list-inside text-gray-700">
+                            <li>Critical Thinking</li>
+                            <li>Stakeholder Collaboration</li>
+                            <li>Technical Communication</li>
+                            <li>Presentation Skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Placeholder for Contact Section (you can expand this later) -->
+        <section id="contact" class="py-16 md:py-24 bg-vibrant-blue text-white text-center rounded-t-xl shadow-lg">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-bold mb-8">Let's Connect</h2>
+                <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+                    I'm eager to connect with organizations and leaders passionate about using data to drive meaningful, human-centered change.
+                </p>
+                <a href="mailto:your.email@example.com" class="inline-block bg-white text-vibrant-blue hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300">
+                    Email Me
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white py-8 text-center">
+        <div class="container mx-auto px-4">
+            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
