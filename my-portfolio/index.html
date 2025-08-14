@@ -24,6 +24,10 @@
         .border-vibrant-blue {
             border-color: #007bff; /* Vibrant blue */
         }
+        /* Custom style for serif font in header title */
+        .serif-font {
+            font-family: 'Georgia', serif; /* Using Georgia as a common serif example */
+        }
     </style>
 </head>
 <body class="antialiased">
@@ -31,8 +35,8 @@
     <!-- Header Section -->
     <header class="header-bg shadow-sm fixed w-full z-50 py-4 md:py-6">
         <div class="container mx-auto px-4 flex justify-between items-center flex-col md:flex-row">
-            <h1 class="text-3xl font-bold text-vibrant-blue mb-2 md:mb-0">
-                [Your Name]
+            <h1 class="text-3xl font-bold text-vibrant-blue mb-2 md:mb-0 serif-font">
+                Troy Sanders
             </h1>
             <nav>
                 <ul class="flex space-x-6">
@@ -157,7 +161,7 @@
 
     <footer class="bg-gray-900 text-white py-8 text-center">
         <div class="container mx-auto px-4">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2025 Troy Sanders. All rights reserved.</p>
         </div>
     </footer>
 
